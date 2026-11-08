@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Fish artwork for the Desktop Fishing project.">
+  <title>Desktop Fishing · Fish artwork</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0c1822; color: #edf6fa; font: 16px/1.6 system-ui, sans-serif; }
+    main { max-width: 1100px; margin: auto; padding: 56px 24px; }
+    header { margin-bottom: 36px; }
+    .eyebrow { color: #8cd5ca; text-transform: uppercase; letter-spacing: .13em; font-size: .8rem; }
+    h1 { margin: 8px 0; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
+    header p, footer { color: #afc0cc; }
+    #gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 18px; }
+    article { border: 1px solid #304653; background: #142532; border-radius: 14px; overflow: hidden; }
+    .art { height: 192px; display: grid; place-items: center; background: radial-gradient(ellipse at center, #29495a, #132531); }
+    img { max-width: 160px; max-height: 160px; object-fit: contain; }
+    .details { padding: 18px; }
+    h2 { font-size: 1rem; margin: 0; }
+    .id { margin: 3px 0 14px; color: #afc0cc; font-size: .8rem; }
+    a { color: #9de5db; text-underline-offset: 3px; }
+    button { border: 1px solid #688f9b; border-radius: 6px; background: transparent; color: #edf6fa; padding: 6px 10px; margin-left: 12px; cursor: pointer; font: inherit; font-size: .8rem; }
+    button:hover { background: #25414f; }
+    a:focus-visible, button:focus-visible { outline: 2px solid #9de5db; outline-offset: 4px; }
+    footer { margin-top: 36px; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Desktop Fishing</div>
+      <h1>Fish artwork</h1>
+      <p>Inventory icons for the game. Open an image or copy its direct link.</p>
+    </header>
+    <div id="gallery" aria-live="polite">Loading the fish…</div>
+    <footer>Original game artwork. Hosted as static files on GitHub Pages.</footer>
+  </main>
+  <script>
+    async function showFish() {
+      const gallery = document.getElementById('gallery');
+      try {
+        const response = await fetch('./items.json');
+        if (!response.ok) throw new Error('Unable to load the image list.');
+        const fish = await response.json();
+        gallery.replaceChildren();
+        for (const item of fish) {
+          const card = document.createElement('article');
+          const art = document.createElement('div');
+          art.className = 'art';
+          const image = document.createElement('img');
+          image.src = item.image;
+          image.alt = item.name;
+          image.width = 160;
+          image.height = 160;
+          image.loading = 'lazy';
+          art.append(image);
+          const details = document.createElement('div');
+          details.className = 'details';
+          const title = document.createElement('h2');
+          title.textContent = item.name;
+          const id = document.createElement('p');
+          id.className = 'id';
+          id.textContent = 'Item ' + item.itemdefid;
+          const link = document.createElement('a');
+          link.href = item.image;
+          link.textContent = 'View PNG';
+          const copy = document.createElement('button');
+          copy.type = 'button';
+          copy.textContent = 'Copy link';
+          copy.setAttribute('aria-label', 'Copy image link for ' + item.name);
+          copy.addEventListener('click', async () => {
+            try {
+              await navigator.clipboard.writeText(new URL(item.image, location.href).href);
+              copy.textContent = 'Copied!';
+            } catch {
+              copy.textContent = 'Open PNG to copy URL';
+            }
+          });
+          details.append(title, id, link, copy);
+          card.append(art, details);
+          gallery.append(card);
+        }
+      } catch {
+        gallery.textContent = 'The image list could not be loaded. Please refresh the page.';
+      }
+    }
+    showFish();
+  </script>
+</body>
+</html>

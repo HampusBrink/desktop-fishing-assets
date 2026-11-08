@@ -1,0 +1,82 @@
+[
+  {
+    "itemdefid": 101,
+    "name": "Clown Fish",
+    "image": "items/clown-fish.png"
+  },
+  {
+    "itemdefid": 102,
+    "name": "Carp",
+    "image": "items/carp.png"
+  },
+  {
+    "itemdefid": 103,
+    "name": "Salmon",
+    "image": "items/salmon.png"
+  },
+  {
+    "itemdefid": 104,
+    "name": "Pike",
+    "image": "items/pike.png"
+  },
+  {
+    "itemdefid": 105,
+    "name": "Sea Turtle",
+    "image": "items/sea-turtle.png"
+  },
+  {
+    "itemdefid": 106,
+    "name": "Manta Ray",
+    "image": "items/manta-ray.png"
+  },
+  {
+    "itemdefid": 107,
+    "name": "Dolphin",
+    "image": "items/dolphin.png"
+  },
+  {
+    "itemdefid": 108,
+    "name": "Anglerfish",
+    "image": "items/anglerfish.png"
+  },
+  {
+    "itemdefid": 109,
+    "name": "Bluefin Tuna",
+    "image": "items/bluefin-tuna.png"
+  },
+  {
+    "itemdefid": 110,
+    "name": "Hammerhead",
+    "image": "items/hammerhead.png"
+  },
+  {
+    "itemdefid": 111,
+    "name": "Manatee",
+    "image": "items/manatee.png"
+  },
+  {
+    "itemdefid": 112,
+    "name": "Great White Shark",
+    "image": "items/great-white-shark.png"
+  },
+  {
+    "itemdefid": 113,
+    "name": "Colossal Squid",
+    "image": "items/colossal-squid.png"
+  },
+  {
+    "itemdefid": 114,
+    "name": "Tiger Shark",
+    "image": "items/tiger-shark.png"
+  },
+  {
+    "itemdefid": 115,
+    "name": "Orca",
+    "image": "items/orca.png"
+  },
+  {
+    "itemdefid": 116,
+    "name": "Sperm Whale",
+    "image": "items/sperm-whale.png"
+  }
+]
