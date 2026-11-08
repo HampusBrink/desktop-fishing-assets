@@ -2,81 +2,161 @@
   {
     "itemdefid": 101,
     "name": "Clown Fish",
-    "image": "items/clown-fish.png"
+    "image": "items/clown-fish.png",
+    "icon": "items/icons-v2/clown-fish.png",
+    "large": "items/large-v2/clown-fish.png",
+    "rarity": "Common",
+    "color": "D9D5CD",
+    "background": "3C3E40"
   },
   {
     "itemdefid": 102,
     "name": "Carp",
-    "image": "items/carp.png"
+    "image": "items/carp.png",
+    "icon": "items/icons-v2/carp.png",
+    "large": "items/large-v2/carp.png",
+    "rarity": "Common",
+    "color": "D9D5CD",
+    "background": "3C3E40"
   },
   {
     "itemdefid": 103,
     "name": "Salmon",
-    "image": "items/salmon.png"
+    "image": "items/salmon.png",
+    "icon": "items/icons-v2/salmon.png",
+    "large": "items/large-v2/salmon.png",
+    "rarity": "Common",
+    "color": "D9D5CD",
+    "background": "3C3E40"
   },
   {
     "itemdefid": 104,
     "name": "Pike",
-    "image": "items/pike.png"
+    "image": "items/pike.png",
+    "icon": "items/icons-v2/pike.png",
+    "large": "items/large-v2/pike.png",
+    "rarity": "Uncommon",
+    "color": "ABCAA1",
+    "background": "18351D"
   },
   {
     "itemdefid": 105,
     "name": "Sea Turtle",
-    "image": "items/sea-turtle.png"
+    "image": "items/sea-turtle.png",
+    "icon": "items/icons-v2/sea-turtle.png",
+    "large": "items/large-v2/sea-turtle.png",
+    "rarity": "Uncommon",
+    "color": "ABCAA1",
+    "background": "18351D"
   },
   {
     "itemdefid": 106,
     "name": "Manta Ray",
-    "image": "items/manta-ray.png"
+    "image": "items/manta-ray.png",
+    "icon": "items/icons-v2/manta-ray.png",
+    "large": "items/large-v2/manta-ray.png",
+    "rarity": "Rare",
+    "color": "81B0F2",
+    "background": "042354"
   },
   {
     "itemdefid": 107,
     "name": "Dolphin",
-    "image": "items/dolphin.png"
+    "image": "items/dolphin.png",
+    "icon": "items/icons-v2/dolphin.png",
+    "large": "items/large-v2/dolphin.png",
+    "rarity": "Rare",
+    "color": "81B0F2",
+    "background": "042354"
   },
   {
     "itemdefid": 108,
     "name": "Anglerfish",
-    "image": "items/anglerfish.png"
+    "image": "items/anglerfish.png",
+    "icon": "items/icons-v2/anglerfish.png",
+    "large": "items/large-v2/anglerfish.png",
+    "rarity": "Rare",
+    "color": "81B0F2",
+    "background": "042354"
   },
   {
     "itemdefid": 109,
     "name": "Bluefin Tuna",
-    "image": "items/bluefin-tuna.png"
+    "image": "items/bluefin-tuna.png",
+    "icon": "items/icons-v2/bluefin-tuna.png",
+    "large": "items/large-v2/bluefin-tuna.png",
+    "rarity": "Epic",
+    "color": "C29AD3",
+    "background": "3C1F44"
   },
   {
     "itemdefid": 110,
     "name": "Hammerhead",
-    "image": "items/hammerhead.png"
+    "image": "items/hammerhead.png",
+    "icon": "items/icons-v2/hammerhead.png",
+    "large": "items/large-v2/hammerhead.png",
+    "rarity": "Epic",
+    "color": "C29AD3",
+    "background": "3C1F44"
   },
   {
     "itemdefid": 111,
     "name": "Manatee",
-    "image": "items/manatee.png"
+    "image": "items/manatee.png",
+    "icon": "items/icons-v2/manatee.png",
+    "large": "items/large-v2/manatee.png",
+    "rarity": "Epic",
+    "color": "C29AD3",
+    "background": "3C1F44"
   },
   {
     "itemdefid": 112,
     "name": "Great White Shark",
-    "image": "items/great-white-shark.png"
+    "image": "items/great-white-shark.png",
+    "icon": "items/icons-v2/great-white-shark.png",
+    "large": "items/large-v2/great-white-shark.png",
+    "rarity": "Legendary",
+    "color": "FBE183",
+    "background": "563F0A"
   },
   {
     "itemdefid": 113,
     "name": "Colossal Squid",
-    "image": "items/colossal-squid.png"
+    "image": "items/colossal-squid.png",
+    "icon": "items/icons-v2/colossal-squid.png",
+    "large": "items/large-v2/colossal-squid.png",
+    "rarity": "Legendary",
+    "color": "FBE183",
+    "background": "563F0A"
   },
   {
     "itemdefid": 114,
     "name": "Tiger Shark",
-    "image": "items/tiger-shark.png"
+    "image": "items/tiger-shark.png",
+    "icon": "items/icons-v2/tiger-shark.png",
+    "large": "items/large-v2/tiger-shark.png",
+    "rarity": "Legendary",
+    "color": "FBE183",
+    "background": "563F0A"
   },
   {
     "itemdefid": 115,
     "name": "Orca",
-    "image": "items/orca.png"
+    "image": "items/orca.png",
+    "icon": "items/icons-v2/orca.png",
+    "large": "items/large-v2/orca.png",
+    "rarity": "Mythic",
+    "color": "DE848C",
+    "background": "3A090E"
   },
   {
     "itemdefid": 116,
     "name": "Sperm Whale",
-    "image": "items/sperm-whale.png"
+    "image": "items/sperm-whale.png",
+    "icon": "items/icons-v2/sperm-whale.png",
+    "large": "items/large-v2/sperm-whale.png",
+    "rarity": "Mythic",
+    "color": "DE848C",
+    "background": "3A090E"
   }
 ]

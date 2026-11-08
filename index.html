@@ -15,11 +15,11 @@
     h1 { margin: 8px 0; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
     header p, footer { color: #afc0cc; }
     #gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 18px; }
-    article { border: 1px solid #304653; background: #142532; border-radius: 14px; overflow: hidden; }
+    article { border: 1px solid var(--rarity, #304653); background: #142532; border-radius: 14px; overflow: hidden; }
     .art { height: 192px; display: grid; place-items: center; background: radial-gradient(ellipse at center, #29495a, #132531); }
     img { max-width: 160px; max-height: 160px; object-fit: contain; }
     .details { padding: 18px; }
-    h2 { font-size: 1rem; margin: 0; }
+    h2 { font-size: 1rem; margin: 0; color: var(--rarity, #edf6fa); }
     .id { margin: 3px 0 14px; color: #afc0cc; font-size: .8rem; }
     a { color: #9de5db; text-underline-offset: 3px; }
     button { border: 1px solid #688f9b; border-radius: 6px; background: transparent; color: #edf6fa; padding: 6px 10px; margin-left: 12px; cursor: pointer; font: inherit; font-size: .8rem; }
@@ -33,7 +33,7 @@
     <header>
       <div class="eyebrow">Desktop Fishing</div>
       <h1>Fish artwork</h1>
-      <p>Inventory icons for the game. Open an image or copy its direct link.</p>
+      <p>Centred inventory icons with the game's rarity colours. Open a thumbnail or large image.</p>
     </header>
     <div id="gallery" aria-live="polite">Loading the fish…</div>
     <footer>Original game artwork. Hosted as static files on GitHub Pages.</footer>
@@ -48,10 +48,11 @@
         gallery.replaceChildren();
         for (const item of fish) {
           const card = document.createElement('article');
+          card.style.setProperty('--rarity', '#' + item.color);
           const art = document.createElement('div');
           art.className = 'art';
           const image = document.createElement('img');
-          image.src = item.image;
+          image.src = item.icon;
           image.alt = item.name;
           image.width = 160;
           image.height = 160;
@@ -63,23 +64,28 @@
           title.textContent = item.name;
           const id = document.createElement('p');
           id.className = 'id';
-          id.textContent = 'Item ' + item.itemdefid;
+          id.textContent = item.rarity + ' · Item ' + item.itemdefid;
           const link = document.createElement('a');
-          link.href = item.image;
-          link.textContent = 'View PNG';
+          link.href = item.large;
+          link.textContent = 'Large PNG';
+          const small = document.createElement('a');
+          small.href = item.icon;
+          small.textContent = 'Thumbnail';
+          small.style.marginLeft = '12px';
           const copy = document.createElement('button');
           copy.type = 'button';
-          copy.textContent = 'Copy link';
-          copy.setAttribute('aria-label', 'Copy image link for ' + item.name);
+          copy.textContent = 'Copy large link';
+          copy.style.margin = '12px 0 0';
+          copy.setAttribute('aria-label', 'Copy large image link for ' + item.name);
           copy.addEventListener('click', async () => {
             try {
-              await navigator.clipboard.writeText(new URL(item.image, location.href).href);
+              await navigator.clipboard.writeText(new URL(item.large, location.href).href);
               copy.textContent = 'Copied!';
             } catch {
               copy.textContent = 'Open PNG to copy URL';
             }
           });
-          details.append(title, id, link, copy);
+          details.append(title, id, link, small, document.createElement('br'), copy);
           card.append(art, details);
           gallery.append(card);
         }
