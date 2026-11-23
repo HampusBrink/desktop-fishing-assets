@@ -8,7 +8,7 @@
     "rarity": "Common",
     "color": "D9D5CD",
     "background": "3C3E40",
-    "large_wide": "items/large-wide/clown-fish.png"
+    "large_wide": "items/large-wide-v3/clown-fish.png"
   },
   {
     "itemdefid": 102,
@@ -19,7 +19,7 @@
     "rarity": "Common",
     "color": "D9D5CD",
     "background": "3C3E40",
-    "large_wide": "items/large-wide/carp.png"
+    "large_wide": "items/large-wide-v3/carp.png"
   },
   {
     "itemdefid": 103,
@@ -30,7 +30,7 @@
     "rarity": "Common",
     "color": "D9D5CD",
     "background": "3C3E40",
-    "large_wide": "items/large-wide/salmon.png"
+    "large_wide": "items/large-wide-v3/salmon.png"
   },
   {
     "itemdefid": 104,
@@ -41,7 +41,7 @@
     "rarity": "Uncommon",
     "color": "ABCAA1",
     "background": "18351D",
-    "large_wide": "items/large-wide/pike.png"
+    "large_wide": "items/large-wide-v3/pike.png"
   },
   {
     "itemdefid": 105,
@@ -52,7 +52,7 @@
     "rarity": "Uncommon",
     "color": "ABCAA1",
     "background": "18351D",
-    "large_wide": "items/large-wide/sea-turtle.png"
+    "large_wide": "items/large-wide-v3/sea-turtle.png"
   },
   {
     "itemdefid": 106,
@@ -63,7 +63,7 @@
     "rarity": "Rare",
     "color": "81B0F2",
     "background": "042354",
-    "large_wide": "items/large-wide/manta-ray.png"
+    "large_wide": "items/large-wide-v3/manta-ray.png"
   },
   {
     "itemdefid": 107,
@@ -74,7 +74,7 @@
     "rarity": "Rare",
     "color": "81B0F2",
     "background": "042354",
-    "large_wide": "items/large-wide/dolphin.png"
+    "large_wide": "items/large-wide-v3/dolphin.png"
   },
   {
     "itemdefid": 108,
@@ -85,7 +85,7 @@
     "rarity": "Rare",
     "color": "81B0F2",
     "background": "042354",
-    "large_wide": "items/large-wide/anglerfish.png"
+    "large_wide": "items/large-wide-v3/anglerfish.png"
   },
   {
     "itemdefid": 109,
@@ -96,7 +96,7 @@
     "rarity": "Epic",
     "color": "C29AD3",
     "background": "3C1F44",
-    "large_wide": "items/large-wide/bluefin-tuna.png"
+    "large_wide": "items/large-wide-v3/bluefin-tuna.png"
   },
   {
     "itemdefid": 110,
@@ -107,7 +107,7 @@
     "rarity": "Epic",
     "color": "C29AD3",
     "background": "3C1F44",
-    "large_wide": "items/large-wide/hammerhead.png"
+    "large_wide": "items/large-wide-v3/hammerhead.png"
   },
   {
     "itemdefid": 111,
@@ -118,7 +118,7 @@
     "rarity": "Epic",
     "color": "C29AD3",
     "background": "3C1F44",
-    "large_wide": "items/large-wide/manatee.png"
+    "large_wide": "items/large-wide-v3/manatee.png"
   },
   {
     "itemdefid": 112,
@@ -129,7 +129,7 @@
     "rarity": "Legendary",
     "color": "FBE183",
     "background": "563F0A",
-    "large_wide": "items/large-wide/great-white-shark.png"
+    "large_wide": "items/large-wide-v3/great-white-shark.png"
   },
   {
     "itemdefid": 113,
@@ -140,7 +140,7 @@
     "rarity": "Legendary",
     "color": "FBE183",
     "background": "563F0A",
-    "large_wide": "items/large-wide/colossal-squid.png"
+    "large_wide": "items/large-wide-v3/colossal-squid.png"
   },
   {
     "itemdefid": 114,
@@ -151,7 +151,7 @@
     "rarity": "Legendary",
     "color": "FBE183",
     "background": "563F0A",
-    "large_wide": "items/large-wide/tiger-shark.png"
+    "large_wide": "items/large-wide-v3/tiger-shark.png"
   },
   {
     "itemdefid": 115,
@@ -162,7 +162,7 @@
     "rarity": "Mythic",
     "color": "DE848C",
     "background": "3A090E",
-    "large_wide": "items/large-wide/orca.png"
+    "large_wide": "items/large-wide-v3/orca.png"
   },
   {
     "itemdefid": 116,
@@ -173,6 +173,6 @@
     "rarity": "Mythic",
     "color": "DE848C",
     "background": "3A090E",
-    "large_wide": "items/large-wide/sperm-whale.png"
+    "large_wide": "items/large-wide-v3/sperm-whale.png"
   }
 ]
