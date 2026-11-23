@@ -7,7 +7,8 @@
     "large": "items/large-v2/clown-fish.png",
     "rarity": "Common",
     "color": "D9D5CD",
-    "background": "3C3E40"
+    "background": "3C3E40",
+    "large_wide": "items/large-wide/clown-fish.png"
   },
   {
     "itemdefid": 102,
@@ -17,7 +18,8 @@
     "large": "items/large-v2/carp.png",
     "rarity": "Common",
     "color": "D9D5CD",
-    "background": "3C3E40"
+    "background": "3C3E40",
+    "large_wide": "items/large-wide/carp.png"
   },
   {
     "itemdefid": 103,
@@ -27,7 +29,8 @@
     "large": "items/large-v2/salmon.png",
     "rarity": "Common",
     "color": "D9D5CD",
-    "background": "3C3E40"
+    "background": "3C3E40",
+    "large_wide": "items/large-wide/salmon.png"
   },
   {
     "itemdefid": 104,
@@ -37,7 +40,8 @@
     "large": "items/large-v2/pike.png",
     "rarity": "Uncommon",
     "color": "ABCAA1",
-    "background": "18351D"
+    "background": "18351D",
+    "large_wide": "items/large-wide/pike.png"
   },
   {
     "itemdefid": 105,
@@ -47,7 +51,8 @@
     "large": "items/large-v2/sea-turtle.png",
     "rarity": "Uncommon",
     "color": "ABCAA1",
-    "background": "18351D"
+    "background": "18351D",
+    "large_wide": "items/large-wide/sea-turtle.png"
   },
   {
     "itemdefid": 106,
@@ -57,7 +62,8 @@
     "large": "items/large-v2/manta-ray.png",
     "rarity": "Rare",
     "color": "81B0F2",
-    "background": "042354"
+    "background": "042354",
+    "large_wide": "items/large-wide/manta-ray.png"
   },
   {
     "itemdefid": 107,
@@ -67,7 +73,8 @@
     "large": "items/large-v2/dolphin.png",
     "rarity": "Rare",
     "color": "81B0F2",
-    "background": "042354"
+    "background": "042354",
+    "large_wide": "items/large-wide/dolphin.png"
   },
   {
     "itemdefid": 108,
@@ -77,7 +84,8 @@
     "large": "items/large-v2/anglerfish.png",
     "rarity": "Rare",
     "color": "81B0F2",
-    "background": "042354"
+    "background": "042354",
+    "large_wide": "items/large-wide/anglerfish.png"
   },
   {
     "itemdefid": 109,
@@ -87,7 +95,8 @@
     "large": "items/large-v2/bluefin-tuna.png",
     "rarity": "Epic",
     "color": "C29AD3",
-    "background": "3C1F44"
+    "background": "3C1F44",
+    "large_wide": "items/large-wide/bluefin-tuna.png"
   },
   {
     "itemdefid": 110,
@@ -97,7 +106,8 @@
     "large": "items/large-v2/hammerhead.png",
     "rarity": "Epic",
     "color": "C29AD3",
-    "background": "3C1F44"
+    "background": "3C1F44",
+    "large_wide": "items/large-wide/hammerhead.png"
   },
   {
     "itemdefid": 111,
@@ -107,7 +117,8 @@
     "large": "items/large-v2/manatee.png",
     "rarity": "Epic",
     "color": "C29AD3",
-    "background": "3C1F44"
+    "background": "3C1F44",
+    "large_wide": "items/large-wide/manatee.png"
   },
   {
     "itemdefid": 112,
@@ -117,7 +128,8 @@
     "large": "items/large-v2/great-white-shark.png",
     "rarity": "Legendary",
     "color": "FBE183",
-    "background": "563F0A"
+    "background": "563F0A",
+    "large_wide": "items/large-wide/great-white-shark.png"
   },
   {
     "itemdefid": 113,
@@ -127,7 +139,8 @@
     "large": "items/large-v2/colossal-squid.png",
     "rarity": "Legendary",
     "color": "FBE183",
-    "background": "563F0A"
+    "background": "563F0A",
+    "large_wide": "items/large-wide/colossal-squid.png"
   },
   {
     "itemdefid": 114,
@@ -137,7 +150,8 @@
     "large": "items/large-v2/tiger-shark.png",
     "rarity": "Legendary",
     "color": "FBE183",
-    "background": "563F0A"
+    "background": "563F0A",
+    "large_wide": "items/large-wide/tiger-shark.png"
   },
   {
     "itemdefid": 115,
@@ -147,7 +161,8 @@
     "large": "items/large-v2/orca.png",
     "rarity": "Mythic",
     "color": "DE848C",
-    "background": "3A090E"
+    "background": "3A090E",
+    "large_wide": "items/large-wide/orca.png"
   },
   {
     "itemdefid": 116,
@@ -157,6 +172,7 @@
     "large": "items/large-v2/sperm-whale.png",
     "rarity": "Mythic",
     "color": "DE848C",
-    "background": "3A090E"
+    "background": "3A090E",
+    "large_wide": "items/large-wide/sperm-whale.png"
   }
 ]
