@@ -9,6 +9,11 @@
             "code": "TIKTOK",
             "item": 9003,
             "gift": "50 FISH"
+        },
+        {
+            "code": "5050",
+            "item": 9004,
+            "gift": "50 FISH SPOTS"
         }
     ]
 }
