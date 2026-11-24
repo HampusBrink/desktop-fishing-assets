@@ -14,6 +14,11 @@
             "code": "5050",
             "item": 9004,
             "gift": "50 FISH SPOTS"
+        },
+        {
+            "code": "KARLSANDERGREN",
+            "item": 9005,
+            "gift": "50 FISH SPOTS"
         }
     ]
 }
